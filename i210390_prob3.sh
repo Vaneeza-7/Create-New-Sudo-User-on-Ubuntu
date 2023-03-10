@@ -10,7 +10,7 @@ printName(){
 }
 
 createUser(){
-  sudo adduser OS_Assignment_1  
+  sudo adduser OS_Assignment_1 --force-badname
 }
 
 giveAdminRights(){
@@ -32,3 +32,11 @@ sudo apt list --installed
 installDropBox(){
 sudo apt install nautilus-dropbox
 }
+
+printName
+createUser
+giveAdminRights
+checkRights
+switchUser
+listInstalledSoftwares
+installDropBox
